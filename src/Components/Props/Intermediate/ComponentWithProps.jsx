@@ -19,7 +19,7 @@ const ComponentWithProps = (props) => {
     const objectPropsDisplay = [];
     for (let [k, v] of Object.defineProperties(objProp)) {
         objectPropsDisplay.push(<li key={k}>Value: {v}</li>);
-    }
+    };
 
     return (
         <>
@@ -35,7 +35,7 @@ const ComponentWithProps = (props) => {
                 ))
             }
             <p>Value of function prop: {funcProp()}</p>
-            <p>{objectPropsDisplay}</p>
+            {/* <p>{objectPropsDisplay}</p> */}
 
         </>
     )
