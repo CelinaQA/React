@@ -4,6 +4,8 @@ import Intro from "./Components/First";
 import Standard from "./Components/Parents-Child/Standard";
 import PropWithDiffTypes from "./Components/Props/Intermediate/PropWithDiffTypes";
 import Parent from "./Components/Props/People/Parent";
+import User from "./Components/Props/PeopleSolution/User";
+import Pokedex from "./Components/Props/Pokemon/Pokedex";
 import PropComp from "./Components/Props_Tutorial/PropComp";
 import Second from "./Components/Second";
 
@@ -15,7 +17,9 @@ const App = () => {
       {/* <Parent /> */}
       {/* <PropComp /> */}
       {/* <PropWithDiffTypes /> */}
-      <Parent />
+      {/* <Parent /> */}
+      {/* <User /> */}
+      <Pokedex />
     </div>
   );
 }
