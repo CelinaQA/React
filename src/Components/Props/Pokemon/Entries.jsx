@@ -6,6 +6,7 @@ const Individual = (props) => {
         <>
             <p >I am {props.name}</p>
             <a href={props.website}>Link to their website</a>
+            <hr />
         </>
     )
 }
