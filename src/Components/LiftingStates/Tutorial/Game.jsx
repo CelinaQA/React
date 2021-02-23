@@ -18,7 +18,7 @@ const Game = () => {
 
     const handleAdd = () => {
         // save playername into the array 
-        setPlayers(players => [...players, playerName]);
+        setPlayers(players => [...players, playerName]); //... prevents overwrite
     }
 
     return (

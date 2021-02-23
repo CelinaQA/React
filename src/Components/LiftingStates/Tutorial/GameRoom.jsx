@@ -6,6 +6,7 @@ const GameRoom = ({ players }) => {
 
     return (
         <ul>
+            <h2>Game Room:</h2>
             {players.map((playerName, i) => (
                 <Display key={i} playerName={playerName} />
             ))}
