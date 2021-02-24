@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div class="container">
             <div class="row justify-content-md-center">
-                <h3>Welcome Pokemon Trainer!</h3>
+                <h3>Welcome to my website!</h3>
             </div>
         </div>
     )
