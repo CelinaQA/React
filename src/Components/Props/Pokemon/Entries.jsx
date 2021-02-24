@@ -2,11 +2,15 @@
 
 const Individual = (props) => {
 
+    console.log(`number: ${props.key}`);
+
     return (
         <>
-            <p >I am {props.name}</p>
-            <a href={props.website}>Link to their website</a>
-            <hr />
+            <tr>
+                <th scope="row">{props.key}</th>
+                <td>{props.name}</td>
+                <td><a href={props.website}>Click for more info</a></td>
+            </tr>
         </>
     )
 }
