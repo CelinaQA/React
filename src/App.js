@@ -1,6 +1,8 @@
 'use strict';
 
 import Intro from "./Components/First";
+import Hooks from "./Components/Hooks_/Hooks";
+import LessText from "./Components/Hooks_/LessText";
 import ProductManager from "./Components/LiftingStates/Exercise/ProductManager";
 import SearchableList from "./Components/LiftingStates/SearchableList";
 import Game from "./Components/LiftingStates/Tutorial/Game";
@@ -37,7 +39,9 @@ const App = () => {
       {/* <HomePage /> */}
       {/* <SearchableList /> */}
       {/* <Game /> */}
-      <ProductManager />
+      {/* <ProductManager /> */}
+      {/* <Hooks /> */}
+      <LessText />
     </div>
   );
 }
