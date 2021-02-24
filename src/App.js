@@ -6,6 +6,8 @@ import Home from "./Components/Props/Pokemon/Home";
 import Pokedex from "./Components/Props/Pokemon/Pokedex";
 import Navigation from "./Components/Props/Pokemon/Navigation";
 import NotFound from './Components/Routing/404';
+import Tesco from './Components/DataRequests/Tesco';
+import MoviePage from './Components/DataRequests/MovieSearch/MoviePage';
 
 
 // Component should start with capital letter (name of function)
@@ -20,6 +22,12 @@ const App = () => {
           </Route>
           <Route path="/pokedex">
             <Pokedex />
+          </Route>
+          <Route path="/tesco">
+            <Tesco />
+          </Route>
+          <Route path="/movie">
+            <MoviePage />
           </Route>
           <Route>
             <NotFound />
