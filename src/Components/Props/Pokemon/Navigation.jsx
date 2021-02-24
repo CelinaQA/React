@@ -13,6 +13,9 @@ const Navigation = () => {
                     <NavItem>
                         <NavLink href="/pokedex" >Pokedex</NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink href="/movie" >Search movies</NavLink>
+                    </NavItem>
                 </Nav>
             </Navbar>
         </>
